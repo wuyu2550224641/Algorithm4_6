@@ -1,0 +1,31 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+        <Button
+            android:id="@+id/fourBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="试题四"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/fiveBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="试题五"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/sixBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="试题六"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</RelativeLayout>
